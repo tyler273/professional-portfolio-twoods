@@ -2,15 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 /* ---------------- HEADER / NAVIGATION BAR ------------------ */
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #0e303f;
-    color: #b9c1dd;
 }
 
 header h1 {
@@ -31,6 +31,10 @@ header nav ul li {
     margin-left: 25px;
 }
 
+nav a:hover {
+    text-decoration: underline white;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -39,6 +43,39 @@ a {
 p {
     font-size: 16px;
 }
+/* ----------------- BANNER IMAGE ------------------ */
+#banner {
+    background-image: url(../images/galaxybg.jpeg);
+    height: 200px;
+}
+/* ----------------- MAIN BODY --------------------- */
+.section-body {
+    width:30%;
+    margin-left: 40px;
+}
+
+.section-body p {
+    padding-bottom: 20px;
+}
+
+.selfie {
+    height: 300px; width: 200px;
+    padding-left: 20px;
+}
+
+.section {
+    display:flex;
+}
+
+/* #project-container {
+    display:flex;
+    flex-wrap: wrap;
+}  */
+
+.project {
+    margin:10px;
+    border: 5px solid rgb(73, 18, 184);
+} 
 
 #projects{
     display: flex;
@@ -46,15 +83,18 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .project-1{
-    width: 100%;
-    min-height: 200px;
+
+  #about-me h2, #projects h2, #contact-me h2{
+    border-right:3px solid #ffffff;
+    padding-right: 10px;
   }
-  .project-2,
-  .project-3,
-  .project-4{
-    width: 49%;
-    min-height: 50px;
+
+  .Phone:hover {
+    text-decoration: underline;
+  }
+
+  .Email:hover {
+    text-decoration: underline;
   }
 
 @media screen and (min-width: 992px) {
