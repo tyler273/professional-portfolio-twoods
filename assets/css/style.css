@@ -49,14 +49,14 @@ p {
     height: 200px;
 }
 /* ----------------- MAIN BODY --------------------- */
-.section-body {
+/* .section-body {
     width:30%;
     margin-left: 40px;
 }
 
 .section-body p {
     padding-bottom: 20px;
-}
+} */
 
 .selfie {
     height: 300px; width: 200px;
@@ -89,9 +89,14 @@ p {
     height: 50%;
   }
 
-  #about-me h2, #projects h2, #contact-me h2{
+#projects h3{
+display:inline-block;
+}
+
+#about-me h2, #projects h2, #contact-me h2{
     border-right:3px solid #ffffff;
     padding-right: 10px;
+    padding-left:0px;
   }
 
 #contact-me ul li{
@@ -100,15 +105,15 @@ p {
     padding-right: 100px;
 }
 
-  .Phone:hover {
+.Phone:hover {
     text-decoration: underline;
   }
 
-  .Email:hover {
+.Email:hover {
     text-decoration: underline;
   }
 
-  .Github:hover {
+.Github:hover {
     text-decoration: underline;
   }
 
