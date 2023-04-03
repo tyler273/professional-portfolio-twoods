@@ -93,11 +93,20 @@ p {
     align-items: flex-end;
     width: 80%;
     height: 50%;
+    
   }
+
+#horiseon:hover{
+    opacity:0.8;
+}
 
 #projects h3{
 display:inline-block;
 }
+
+/* #project:hover{
+    opacity:0.8;
+} */
 
 #about-me h2, #projects h2, #contact-me h2{
     flex: 0 0 20%;
