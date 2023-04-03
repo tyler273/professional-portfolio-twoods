@@ -6,11 +6,11 @@ The goal of this project was create a website that acts as a portfolio to displa
 
 ## Usage
 
-<img src="https://github.com/tyler273/horiseon-refactor/blob/main/assets/images/screenshot_1.png" width = "500" />
+<img src="https://github.com/tyler273/professional_portfolio_twoods/blob/main/assets/images/ss1.png" width = "500" />
 
-<img src="https://github.com/tyler273/horiseon-refactor/blob/main/assets/images/screenshot_2.png" width = "500" />
+<img src="https://github.com/tyler273/professional_portfolio_twoods/blob/main/assets/images/ss2.png" width = "500" />
 
-<img src="https://github.com/tyler273/horiseon-refactor/blob/main/assets/images/screenshot_3.png" width = "500" />
+<img src="https://github.com/tyler273/professional_portfolio_twoods/blob/main/assets/images/ss3.png" width = "500" />
 
 [Click here for repo](https://github.com/tyler273/professional_portfolio_twoods)
 
