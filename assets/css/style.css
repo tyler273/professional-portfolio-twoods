@@ -90,11 +90,18 @@ p {
   }
 
 #horiseon {
-    align-items: flex-end;
+    display:flex;
+    justify-content:center;
     width: 80%;
     height: 50%;
-    
   }
+
+.projectsHeader {
+    text-align: left;
+    font-size: 50px;
+    margin-left: 130px;
+    border-right: 4px solid white;
+}
 
 #horiseon:hover{
     opacity:0.8;
