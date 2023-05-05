@@ -65,11 +65,11 @@ p {
 }
 
 .section {
-    display:flex;
+    display: flex;
 }
 
 #about-me p{
-    margin:auto;
+    margin: auto;
 }
 
 /* #project-container {
@@ -78,23 +78,32 @@ p {
 }  */
 
 .project {
-    margin:20px;
-    border: 5px solid white
+    margin: 20px;
+    border: 5px solid white;
+    display: inline-flex;
+    justify-content: center;
 } 
 
 #projects {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+    justify-content: center;
+}
+
+#foodfocus {
+    width: 30%;
+    height: 80%;
+    margin: 20px;
+    border: 5px solid white;
+}
 
 #horiseon {
-    display:flex;
-    justify-content:center;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
     height: 50%;
-  }
+    margin-left: 400px;
+    border: 5px solid white;
+}
 
 .projectsHeader {
     text-align: left;
@@ -108,7 +117,13 @@ p {
 }
 
 #projects h3{
-display:inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
 }
 
 /* #project:hover{
@@ -122,17 +137,17 @@ display:inline-block;
     border-right: 4px solid white;
     font-size: 3vw;
     line-height: 1.1;
-  }
+}
 
 #about-me h3 {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 #contact-me ul li{
-    display:inline-block;
+    display: inline-block;
     margin-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -140,15 +155,15 @@ display:inline-block;
 
 .Phone:hover {
     text-decoration: underline;
-  }
+}
 
 .Email:hover {
     text-decoration: underline;
-  }
+}
 
 .Github:hover {
     text-decoration: underline;
-  }
+}
 
 @media screen and (min-width: 992px) {
     .project-2,
@@ -157,4 +172,4 @@ display:inline-block;
       width: 33%;
       min-height: 50px;
     }
-  } 
+} 
