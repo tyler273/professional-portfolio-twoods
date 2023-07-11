@@ -126,8 +126,20 @@ p {
     border: 5px solid white;
 }
 
+#food-focus:hover{
+    opacity:0.8;
+}
+
 #critter-tracker {
     border: 5px solid white;
+}
+
+#critter-tracker:hover{
+    opacity: 0.8;
+}
+
+#random-pic:hover{
+    opacity: 0.8;
 }
 
 #about-me h2, #projects h2, #contact-me h2{
