@@ -16,7 +16,7 @@ Note: Some code was received through collaboration with BCS, specified in pushes
 
 [Click here for repo](https://github.com/tyler273/professional_portfolio_twoods)
 
-[Click here for live site](https://tyler273.github.io/professional_portfolio_twoods/)
+[Click here for live site](https://tyler273.github.io/professional-portfolio-twoods/)
 
 ## License
 
